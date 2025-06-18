@@ -1,0 +1,2 @@
+
+3c5b386747542d39cd39b00de20d95bad041d958	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz","integrity":null,"time":1750000749819,"size":"0","metadata":{"time":1750000749818,"url":"http://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:19:08 GMT","location":"https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

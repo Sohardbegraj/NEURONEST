@@ -1,0 +1,2 @@
+
+8d64c8b168f1095554caac5a03129ef98c2a1d8c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz","integrity":null,"time":1749999196277,"size":"0","metadata":{"time":1749999196277,"url":"http://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 14:53:14 GMT","location":"https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

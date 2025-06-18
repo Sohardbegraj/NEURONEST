@@ -1,0 +1,2 @@
+
+0cedf4c43f4fb8fb5be1553ff55546cb254326d4	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz","integrity":null,"time":1749999927305,"size":"0","metadata":{"time":1749999927305,"url":"http://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:25 GMT","location":"https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

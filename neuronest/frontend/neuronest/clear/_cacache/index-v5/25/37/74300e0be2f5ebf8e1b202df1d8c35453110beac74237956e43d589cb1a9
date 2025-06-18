@@ -1,0 +1,2 @@
+
+574e71b549b73d5f72ee0e786ee171e78fd2a31e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz","integrity":null,"time":1749999926668,"size":"0","metadata":{"time":1749999926668,"url":"http://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:24 GMT","location":"https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

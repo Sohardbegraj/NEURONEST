@@ -1,0 +1,2 @@
+
+e60774286d51425da69357d88a13bd1e17c43fd0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mquery","integrity":null,"time":1749999264671,"size":"0","metadata":{"time":1749999264671,"url":"http://registry.npmjs.org/mquery","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 14:54:22 GMT","location":"https://registry.npmjs.org/mquery","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

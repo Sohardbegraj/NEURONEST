@@ -1,0 +1,2 @@
+
+d70e61997ef68285335f8dd881906f1a8af3e7ea	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/punycode","integrity":null,"time":1749999906873,"size":"0","metadata":{"time":1749999906873,"url":"http://registry.npmjs.org/punycode","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:05 GMT","location":"https://registry.npmjs.org/punycode","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+0fba176d265b4117b5ce062110e2e3c87521c1a6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.1.tgz","integrity":null,"time":1749999927651,"size":"0","metadata":{"time":1749999927651,"url":"http://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:25 GMT","location":"https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

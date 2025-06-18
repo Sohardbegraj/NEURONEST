@@ -1,0 +1,2 @@
+
+62df3f29d9d0d8f9b65a6213fdba79ad86672678	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/picocolors","integrity":null,"time":1749999899978,"size":"0","metadata":{"time":1749999899978,"url":"http://registry.npmjs.org/picocolors","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:04:58 GMT","location":"https://registry.npmjs.org/picocolors","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

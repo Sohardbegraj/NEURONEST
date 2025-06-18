@@ -1,0 +1,2 @@
+
+86796b8e7edf3a2cd3c2408d97c1918a3a34ad4e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/set-cookie-parser","integrity":null,"time":1750256344081,"size":"0","metadata":{"time":1750256344080,"url":"http://registry.npmjs.org/set-cookie-parser","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 18 Jun 2025 14:19:03 GMT","location":"https://registry.npmjs.org/set-cookie-parser","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

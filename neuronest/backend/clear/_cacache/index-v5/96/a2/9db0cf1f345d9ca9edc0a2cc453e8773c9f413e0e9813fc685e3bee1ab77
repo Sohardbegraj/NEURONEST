@@ -1,0 +1,2 @@
+
+5a4075bf001754ee4002838f0655b5a22b2377ec	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mongoose/-/mongoose-8.15.2.tgz","integrity":null,"time":1749999269612,"size":"0","metadata":{"time":1749999269612,"url":"http://registry.npmjs.org/mongoose/-/mongoose-8.15.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 14:54:27 GMT","location":"https://registry.npmjs.org/mongoose/-/mongoose-8.15.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

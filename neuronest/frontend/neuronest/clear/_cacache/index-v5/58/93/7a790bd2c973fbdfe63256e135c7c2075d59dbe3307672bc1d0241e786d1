@@ -1,0 +1,2 @@
+
+a8d2f0085b7771c849e631a9bddf9673702c7ed5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/caniuse-lite","integrity":null,"time":1749999902235,"size":"0","metadata":{"time":1749999902235,"url":"http://registry.npmjs.org/caniuse-lite","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:00 GMT","location":"https://registry.npmjs.org/caniuse-lite","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

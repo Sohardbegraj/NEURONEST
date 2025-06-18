@@ -1,0 +1,2 @@
+
+897e123706405c6182ac24b1ad1787eccaf33e60	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/side-channel-map","integrity":null,"time":1749999193547,"size":"0","metadata":{"time":1749999193547,"url":"http://registry.npmjs.org/side-channel-map","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 14:53:11 GMT","location":"https://registry.npmjs.org/side-channel-map","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

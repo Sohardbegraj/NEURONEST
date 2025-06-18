@@ -1,0 +1,2 @@
+
+8fe97c1f859fdfe201dc44496789085174037c4b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz","integrity":null,"time":1749999927740,"size":"0","metadata":{"time":1749999927739,"url":"http://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:25 GMT","location":"https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

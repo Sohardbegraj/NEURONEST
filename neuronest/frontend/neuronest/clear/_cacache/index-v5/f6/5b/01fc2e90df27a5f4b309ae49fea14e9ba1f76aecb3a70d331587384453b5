@@ -1,0 +1,2 @@
+
+3787a3f942b9dfa6b7f51902b06668b2c9610231	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.10.tgz","integrity":null,"time":1750000749800,"size":"0","metadata":{"time":1750000749800,"url":"http://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.10.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:19:07 GMT","location":"https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.10.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

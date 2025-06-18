@@ -1,0 +1,2 @@
+
+0b60b2f27ce131e5502c59cb9be2255417e1697f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz","integrity":null,"time":1749999926295,"size":"0","metadata":{"time":1749999926295,"url":"http://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:24 GMT","location":"https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

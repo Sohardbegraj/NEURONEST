@@ -1,0 +1,2 @@
+
+be2bd919e97e62d4e51ded5a973304acdda1a16c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@humanfs%2fcore","integrity":null,"time":1749999905833,"size":"0","metadata":{"time":1749999905832,"url":"http://registry.npmjs.org/@humanfs%2fcore","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:03 GMT","location":"https://registry.npmjs.org/@humanfs%2Fcore","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

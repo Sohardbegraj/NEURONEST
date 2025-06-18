@@ -1,0 +1,2 @@
+
+08e1b0afdd40b485cbc70cf8bd6932e24df0401d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/lucide-react","integrity":null,"time":1750246710452,"size":"0","metadata":{"time":1750246710451,"url":"http://registry.npmjs.org/lucide-react","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 18 Jun 2025 11:38:25 GMT","location":"https://registry.npmjs.org/lucide-react","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

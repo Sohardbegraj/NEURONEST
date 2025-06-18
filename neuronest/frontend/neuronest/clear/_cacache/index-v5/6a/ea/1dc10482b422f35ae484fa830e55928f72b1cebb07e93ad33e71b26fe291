@@ -1,0 +1,2 @@
+
+c75062f675a4479fa6b27ab9bf65ca27aba74602	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/js-yaml","integrity":null,"time":1749999905749,"size":"0","metadata":{"time":1749999905749,"url":"http://registry.npmjs.org/js-yaml","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:05:03 GMT","location":"https://registry.npmjs.org/js-yaml","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+df72b22ee0ee07d0b51284122f1ca1cd7bf5a81d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/detect-libc/-/detect-libc-2.0.4.tgz","integrity":null,"time":1750000749724,"size":"0","metadata":{"time":1750000749724,"url":"http://registry.npmjs.org/detect-libc/-/detect-libc-2.0.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 15:19:07 GMT","location":"https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.4.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

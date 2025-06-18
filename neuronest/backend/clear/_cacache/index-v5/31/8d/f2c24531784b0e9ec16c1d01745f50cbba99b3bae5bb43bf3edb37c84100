@@ -1,0 +1,2 @@
+
+4f65896a78a0addbdda5b4c70f10d87c853387db	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz","integrity":null,"time":1749999196097,"size":"0","metadata":{"time":1749999196096,"url":"http://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 15 Jun 2025 14:53:14 GMT","location":"https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
