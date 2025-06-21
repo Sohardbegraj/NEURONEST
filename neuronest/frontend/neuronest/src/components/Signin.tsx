@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import { z } from "zod";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 // Define Zod schema
 const signInSchema = z.object({
@@ -26,7 +27,7 @@ const SignInForm: React.FC = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async(e: React.FormEvent) => {
     e.preventDefault();
 
     const result = signInSchema.safeParse(formData);
@@ -43,6 +44,21 @@ const SignInForm: React.FC = () => {
 
     setFormErrors({});
     console.log("✅ Submitted:", result.data);
+
+    await axios.post('http://localhost:3000/', {
+      email: result.data.email,
+      password: result.data.password,
+    })
+      .then(res => {
+      console.log(res.data);
+      localStorage.setItem("token", res.data.token.replace("Bearer ", ""));
+        console.log(res.data.token);
+      navigate("/content");
+      })
+      .catch(err => {
+      alert("error");
+      console.error(err);
+      });
 
     // Clear form
     setFormData({ email: "", password: "" });

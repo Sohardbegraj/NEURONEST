@@ -1,0 +1,2 @@
+
+49bd98b541cab177913dbb1f816249676eb3a557	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz","integrity":null,"time":1750350328956,"size":"0","metadata":{"time":1750350328956,"url":"http://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 16:25:25 GMT","location":"https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

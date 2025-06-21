@@ -1,28 +1,29 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import usecontent from "../hooks/usecontent";
 
 type CardType = "document" | "tweet" | "youtube" | "link";
 
-interface CardData {
+type CardData = {
+  _id:string;
   type: CardType;
   link: string;
   title: string;
   tags: string[];
   imgUrl?: string;
   description?: string;
-}
-
-const dummyCards: CardData[] = [
-
-];
+  [key: string]: any;
+};
 
 const CardList: React.FC = () => {
   const [filter, setFilter] = useState<CardType | "all">("all");
+  const content = usecontent() as CardData[];
+
 
   const filteredCards =
     filter === "all"
-      ? dummyCards
-      : dummyCards.filter((card) => card.type === filter);
+      ? content
+      : content.filter((card) => card.type === filter);
 
   const types: (CardType | "all")[] = ["all", "document", "tweet", "youtube", "link"];
 

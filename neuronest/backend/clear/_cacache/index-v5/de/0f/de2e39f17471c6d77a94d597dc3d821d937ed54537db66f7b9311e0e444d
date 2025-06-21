@@ -1,0 +1,2 @@
+
+dcf0321576cb9d8dd30f1ce597423143c3c22489	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-binary-path","integrity":null,"time":1750394912140,"size":"0","metadata":{"time":1750394912140,"url":"http://registry.npmjs.org/is-binary-path","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 20 Jun 2025 04:48:28 GMT","location":"https://registry.npmjs.org/is-binary-path","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

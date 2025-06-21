@@ -1,9 +1,11 @@
 // src/components/Card.tsx
+import axios from "axios";
 import { Trash2 } from "lucide-react";
 import React from "react";
 
 interface CardProps {
   data: {
+    _id: String;
     type: "document" | "tweet" | "youtube" | "link";
     link: string;
     title: string;
@@ -11,8 +13,8 @@ interface CardProps {
     imgUrl?: string; // Optional for future use
     description?: string; // Optional for future use
 
-  };
-  onDelete?: () => void;
+  },
+
 }
 
 const typeColors = {
@@ -22,7 +24,30 @@ const typeColors = {
   link: "bg-green-100 text-green-800",
 };
 
-const Card: React.FC<CardProps> = ({ data, onDelete }) => {
+const Card: React.FC<CardProps> = ({ data }) => {
+const token = localStorage.getItem("token"); 
+if (!token) {
+  console.error("Token not found in localStorage");
+}
+const onDelete = async () => {
+  if (!window.confirm("Are you sure you want to delete this item?")) return;
+  console.log(data._id)
+  try {
+    await axios.delete("http://localhost:3000/content", {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+      data: {
+        contentId: data._id,
+      },
+    });
+    alert("Deleted successfully");
+    // You should also trigger a UI update (e.g. refetch or remove from state)
+  } catch (error) {
+    console.error("Delete error:", error);
+  }
+};
+
   return (
     <div className="relative block rounded-xl shadow-black hover:shadow-lg bg-[#e0e7fe] border border-gray-200 p-4 max-w-sm hover:bg-gray-950 hover:text-white text-gray-800 hover:transform hover:scale-105 transition-transform duration-300">
       <a
@@ -40,13 +65,6 @@ const Card: React.FC<CardProps> = ({ data, onDelete }) => {
       </div>
 
       <h3 className="text-lg font-medium  mb-2">{data.title}</h3>
-        {data.imgUrl && (
-            <img
-                src={data.imgUrl}
-                alt={data.title}
-                className="mt-4 w-full h-32 object-cover rounded-lg"
-            />
-        )}
         </a>
         {
             data.description && (

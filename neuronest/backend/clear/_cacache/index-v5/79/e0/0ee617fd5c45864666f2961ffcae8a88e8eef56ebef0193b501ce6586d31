@@ -1,0 +1,2 @@
+
+90daf3b28f040325f446644903bb054a339cfb1c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jsonwebtoken","integrity":null,"time":1750333915145,"size":"0","metadata":{"time":1750333915145,"url":"http://registry.npmjs.org/jsonwebtoken","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 11:51:52 GMT","location":"https://registry.npmjs.org/jsonwebtoken","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

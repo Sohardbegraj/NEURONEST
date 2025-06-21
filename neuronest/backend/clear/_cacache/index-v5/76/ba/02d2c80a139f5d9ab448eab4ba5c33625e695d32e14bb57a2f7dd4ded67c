@@ -1,0 +1,2 @@
+
+a92ccec66ab715c91696cd404928a852181a7dfe	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz","integrity":null,"time":1750422360858,"size":"0","metadata":{"time":1750422360858,"url":"http://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 20 Jun 2025 12:25:56 GMT","location":"https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

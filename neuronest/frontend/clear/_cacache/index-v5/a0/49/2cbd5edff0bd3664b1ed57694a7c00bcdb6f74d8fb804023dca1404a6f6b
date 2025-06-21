@@ -1,0 +1,2 @@
+
+390eda743a5c421dae1ce914c424f798647f63f4	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/has-tostringtag","integrity":null,"time":1750350328081,"size":"0","metadata":{"time":1750350328081,"url":"http://registry.npmjs.org/has-tostringtag","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 16:25:24 GMT","location":"https://registry.npmjs.org/has-tostringtag","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

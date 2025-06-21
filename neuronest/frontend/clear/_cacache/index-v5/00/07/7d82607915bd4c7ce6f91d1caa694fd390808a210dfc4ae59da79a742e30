@@ -1,0 +1,2 @@
+
+d1405e331d196c9eaffc9e7de5b5d08fa507f677	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/es-object-atoms","integrity":null,"time":1750350328395,"size":"0","metadata":{"time":1750350328395,"url":"http://registry.npmjs.org/es-object-atoms","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 16:25:25 GMT","location":"https://registry.npmjs.org/es-object-atoms","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

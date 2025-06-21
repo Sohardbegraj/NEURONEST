@@ -1,0 +1,2 @@
+
+ef2fee536e0f6614af87f64f1f32687ea1f4a4f8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/braces","integrity":null,"time":1750394912131,"size":"0","metadata":{"time":1750394912131,"url":"http://registry.npmjs.org/braces","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 20 Jun 2025 04:48:28 GMT","location":"https://registry.npmjs.org/braces","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

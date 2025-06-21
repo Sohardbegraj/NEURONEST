@@ -1,0 +1,2 @@
+
+09261acda7914f4a158739ce69dec2f7d4f6a266	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz","integrity":null,"time":1750355661125,"size":"0","metadata":{"time":1750355661125,"url":"http://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 17:54:19 GMT","location":"https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

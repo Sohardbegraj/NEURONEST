@@ -1,0 +1,2 @@
+
+e3e0051d150b8c616037afd87d736fbab5a85f4a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-number","integrity":null,"time":1750394913021,"size":"0","metadata":{"time":1750394913021,"url":"http://registry.npmjs.org/is-number","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 20 Jun 2025 04:48:29 GMT","location":"https://registry.npmjs.org/is-number","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -6,6 +6,7 @@ import NotFound from './components/NotFound';
 import Nest from './components/Nest'
 import AddContentPage from './components/Addcontent';
 import ShareBrainModal from './components/share';
+import CardList from './components/cardlist';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/content" element={<Nest/>} />
         <Route path="/content/addcontent" element={<AddContentPage />} />
         <Route path="/content/share" element={<ShareBrainModal />} />
+       <Route path="/content/share/:sharelink" element={<CardList/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

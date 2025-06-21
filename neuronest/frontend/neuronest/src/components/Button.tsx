@@ -2,7 +2,7 @@ interface ButtonProps {
     variant: 'primary' | 'secondary'| 'close';
     size: 'small' | 'medium' | 'large';
     label: string;
-    onClick: () => void | (() => Promise<void>);
+    onClick?: () => void | (() => Promise<void>);
     type?: 'button' | 'submit' | 'reset';
 
 }

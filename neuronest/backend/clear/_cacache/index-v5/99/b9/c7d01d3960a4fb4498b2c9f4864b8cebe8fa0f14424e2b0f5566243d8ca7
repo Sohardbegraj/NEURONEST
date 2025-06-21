@@ -1,0 +1,2 @@
+
+f99a43b8e139f05a7906a111e6da1aaa972db6ff	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/cors","integrity":null,"time":1750333881871,"size":"0","metadata":{"time":1750333881870,"url":"http://registry.npmjs.org/cors","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 11:51:19 GMT","location":"https://registry.npmjs.org/cors","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

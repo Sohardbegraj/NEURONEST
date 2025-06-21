@@ -4,13 +4,12 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "./Button";
 import { useNavigate } from "react-router-dom";
-
+import axios from "axios";
 const contentSchema = z.object({
   type: z.enum(["document", "tweet", "youtube", "link"]),
   link: z.string().url("Must be a valid URL"),
   title: z.string().min(1, "Title is required"),
   tags: z.array(z.string()).max(10, "Max 10 tags"),
-  imgFile: z.any().optional(),
   description: z.string().optional(),
 });
 
@@ -20,7 +19,6 @@ type ContentForm = z.infer<typeof contentSchema>;
 const AddContentPage: React.FC = () => {
   const [tags, setTags] = useState<string[]>([]);
   const [tagInput, setTagInput] = useState("");
-  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   
   const navigation=useNavigate()
 
@@ -57,27 +55,41 @@ const AddContentPage: React.FC = () => {
     setValue("tags", updated);
   };
 
-  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      setValue("imgFile", file);
-      const url = URL.createObjectURL(file);
-      setPreviewUrl(url);
-    }
-  };
 
-  const onSubmit = (data: ContentForm) => {
+
+  const onSubmit = async(data: ContentForm) => {
     console.log("Validated Data:", {
       ...data,
       tags,
     });
 
-    // If you want to upload image/file to server:
-    // Create FormData and send it to an API
+const token = localStorage.getItem("token"); // This should be the plain token, no "Bearer" prefix
+
+if (!token) {
+  console.error("Token not found in localStorage");
+}
+    await axios.post('http://localhost:3000/addcontent', {
+      link:data.link,
+      type: data.type,
+      title: data.title,
+      tags:data.tags,
+      description :data.description
+    }, {
+  headers: {
+    Authorization: `Bearer ${token}`,// This is the correct format
+    "Content-Type": "application/json"
+  }
+})
+      .then(res => {
+        alert("added")
+       navigation('/content')
+      })
+      .catch(err => {
+      alert("error");
+      });
 
     reset();
     setTags([]);
-    setPreviewUrl(null);
   };
 
   return (
@@ -86,7 +98,10 @@ const AddContentPage: React.FC = () => {
       <div className="flex items-center justify-center bg-white rounded-2xl shadow-md w-full max-w-lg sm:max-w-md">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="space-y-4 w-full bg-white p-4 sm:p-8 rounded-2xl shadow-xl max-h-[90vh] overflow-y-auto xl:overflow-hidden"
+          className="space-y-4 w-full bg-white p-4 sm:p-8 rounded-2xl shadow-xl max-h-[90vh] overflow-y-auto"
+          action={"/addcontent"}
+          method="post"
+          encType="multipart/form-data"
         >
           <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold mb-4 text-gray-700">Add New Content</h2>
@@ -172,23 +187,6 @@ const AddContentPage: React.FC = () => {
           {errors.tags && <p className="text-red-500 text-sm">{errors.tags.message}</p>}
         </div>
 
-        {/* Image Upload */}
-        <div>
-          <label className="block mb-1 font-medium">Upload Image (optional)</label>
-          <input
-            type="file"
-            accept="image/*"
-            onChange={handleImageChange}
-            className="w-full border rounded-lg p-2"
-          />
-          {previewUrl && (
-            <img
-              src={previewUrl}
-              alt="Preview"
-              className="mt-2 max-h-40 object-contain rounded-lg border"
-            />
-          )}
-        </div>
 
         {/* Description */}
         <div>

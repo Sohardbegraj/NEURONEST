@@ -1,0 +1,2 @@
+
+c27c70e8ad4081c239e5ca467ea54af5ab633447	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/lodash.isnumber","integrity":null,"time":1750333915674,"size":"0","metadata":{"time":1750333915674,"url":"http://registry.npmjs.org/lodash.isnumber","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Thu, 19 Jun 2025 11:51:53 GMT","location":"https://registry.npmjs.org/lodash.isnumber","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

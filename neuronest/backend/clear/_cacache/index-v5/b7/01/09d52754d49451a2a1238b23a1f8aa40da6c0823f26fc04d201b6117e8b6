@@ -1,0 +1,2 @@
+
+73e33d9ab5f73d7c7845dc17c9fd9d840f91b2aa	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-glob","integrity":null,"time":1750394912133,"size":"0","metadata":{"time":1750394912133,"url":"http://registry.npmjs.org/is-glob","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 20 Jun 2025 04:48:28 GMT","location":"https://registry.npmjs.org/is-glob","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
